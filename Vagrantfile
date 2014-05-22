@@ -3,7 +3,7 @@ VAGRANTFILE_API_VERSION = "2"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.box = "precise32mod"
-  config.vm.box_url = "https://www.dropbox.com/s/h7ds4f1qs7exuop/precise32mod.box"
+  config.vm.box_url = "https://dl.dropboxusercontent.com/s/h7ds4f1qs7exuop/precise32mod.box?dl=1&token_hash=AAFIRue1cfeM7sFJM6BmaEV7-YLRc99jENdP_qXgWJSjuQ&expiry=1400785957"
 
   config.vm.network "forwarded_port", guest: 80, host: 4444
 
