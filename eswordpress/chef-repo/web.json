@@ -1,5 +1,0 @@
-{
-	"mysql": {"server_root_password": "q", "server_debian_password": "q", "server_repl_password": "q"},
-	"phpapp": {"db_password": "q"},
-	"run_list": [ "recipe[apt]", "recipe[phpapp]" ]
-}
