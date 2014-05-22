@@ -2,8 +2,8 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
-  config.vm.box = "cajaupdate"
-  config.vm.box_url = "http://files.vagrantup.com/precise32.box"
+  config.vm.box = "precise32mod"
+  config.vm.box_url = "https://www.dropbox.com/s/h7ds4f1qs7exuop/precise32mod.box"
 
   config.vm.network "forwarded_port", guest: 80, host: 4444
 
