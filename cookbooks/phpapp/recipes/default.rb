@@ -36,7 +36,7 @@ end
 wordpress_latest = Chef::Config[:file_cache_path] + "/wordpress-latest.tar.gz"
 
 remote_file wordpress_latest do
-	source "http://es.wordpress.org/wordpress-3.9.1-es_ES.tar.gz"
+	source "idiomawp"
 	mode "0644"
 end
 
