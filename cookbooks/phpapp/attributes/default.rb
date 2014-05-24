@@ -1,3 +1,3 @@
-default['phpapp']['database'] = 'phpapp'
-default['phpapp']['db_username'] = 'phpapp'
+default['phpapp']['database'] = 'nombredb'
+default['phpapp']['db_username'] = 'usuariodb'
 default['phpapp']['path'] = '/var/www/phpapp/'
