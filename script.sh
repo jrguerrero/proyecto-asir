@@ -16,7 +16,7 @@ if [ $? -eq 0 ]
 
 	else
 
-		sed "s/urlcaja/https:\/\/centosmotherfucker.com\/s\/h7ds4f1qs7exuop\/precise32mod.box?dl=1&token_hash=AAFIRue1cfeM7sFJM6BmaEV7-YLRc99jENdP_qXgWJSjuQ&expiry=1400785957/g" Vagrantfile > prueba
+		sed "s/urlcaja/https:\/\/dl.dropboxusercontent.com\/s\/m7d2139oa9x6gyx\/centos32mod.box?dl=1&token_hash=AAHFtlhPg2rfcbKBsHj4bCB0dyDAytKW27TgZk49ZIV17A&expiry=1401045108/g" Vagrantfile > prueba
 
 		sed "s/rutawp/\/var\/www\/html\/phpapp\//g" cookbooks/phpapp/attributes/default.rb > cookbooks/phpapp/attributes/prueba
 
