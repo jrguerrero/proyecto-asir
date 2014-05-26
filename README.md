@@ -29,6 +29,6 @@ $ vagrant provision
 
 ```
 
-Mientras se baja la caja y se realiza el aprovisionamiento puedes aprovechar para tomarte una cervecita ya que tarda unos minutos. (Aproximadamente entre 5 y 10 minutos, según la conexión de Internet que tengas)
+Mientras se baja la caja y se realiza el aprovisionamiento puedes aprovechar para tomarte una cervecita ya que tarda unos minutos, aproximadamente entre 5 y 10 minutos, según la conexión de Internet que tengas.
 
 Muchas gracias por utilizar mi repositorio. ;)
